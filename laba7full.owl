@@ -1,0 +1,384 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#"
+     xml:base="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Labaratornya7="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#обучается -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#обучается">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Учащийся"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Дисциплина"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#преподает -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#преподает">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Преподаватель"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Дисциплина"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Возраст -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Возраст">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#4elovek"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Имя -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Имя">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#4elovek"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Комп._класс -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Комп._класс">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Аудитория"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Конференция -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Конференция">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Мероприятия"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Курс -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Курс">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Учащийся"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Лаборатория -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Лаборатория">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Аудитория"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Лекционная -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Лекционная">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Аудитория"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Награждения -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Награждения">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Мероприятия"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Название -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Название">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Дисциплина"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Отчество -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Отчество">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#4elovek"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Праздники -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Праздники">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Мероприятия"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Часы_лекций -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Часы_лекций">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Дисциплина"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Часы_практики -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Часы_практики">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Дисциплина"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#фамилия -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#фамилия">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#4elovek"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Аспирант -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Аспирант">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Преподаватель"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Учащийся"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Ассистент -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Ассистент">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Преподаватель"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Аудитория -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Аудитория"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Дисциплина -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Дисциплина"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Доцент -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Доцент">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Преподаватель"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Мероприятия -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Мероприятия"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Преподаватель -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Преподаватель">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#4elovek"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Профессор -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Профессор">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Преподаватель"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Студент -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Студент">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Учащийся"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Учащийся -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Учащийся">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#4elovek"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Школьник -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Школьник">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Учащийся"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#4elovek -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#4elovek"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Брекоткин -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Брекоткин">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Доцент"/>
+        <Возраст rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</Возраст>
+        <Имя rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Дмитрий</Имя>
+        <Отчество rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Васильевич</Отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Высшая_математика -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Высшая_математика">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Дисциплина"/>
+        <Часы_лекций rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Часы_лекций>
+        <Часы_практики rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</Часы_практики>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Г-207 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Г-207">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Аудитория"/>
+        <Комп._класс rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Комп._класс>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Г-306 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Г-306">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Аудитория"/>
+        <Лекционная rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Лекционная>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#День_открытых_дверей -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#День_открытых_дверей">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Мероприятия"/>
+        <Праздники rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Праздники>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Мясников -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Мясников">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Ассистент"/>
+        <Возраст rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</Возраст>
+        <Имя rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Сергей</Имя>
+        <Отчество rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Иванович</Отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Рожков -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Рожков">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Аспирант"/>
+        <Возраст rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</Возраст>
+        <Имя rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Андрей</Имя>
+        <Отчество rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Михайлович</Отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Соколов -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Соколов">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Профессор"/>
+        <Возраст rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</Возраст>
+        <Имя rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Дмитрий</Имя>
+        <Отчество rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Федорович</Отчество>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#75-я_научная_конференция -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#75-я_научная_конференция">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/2/Labaratornya7#Мероприятия"/>
+        <Конференция rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Конференция>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
