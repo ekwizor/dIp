@@ -1,0 +1,677 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#"
+     xml:base="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:labaprestige3="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Измеряется_чем -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Измеряется_чем">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Имеет_измерение"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Имеет_вход -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Имеет_вход"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Имеет_измерение -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Имеет_измерение"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Имеет_контроль -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Имеет_контроль">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Управляется_чем"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Имеет_часть -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Имеет_часть">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Является_частью"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Управляется_чем -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Управляется_чем"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Является_частью -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Является_частью"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#BMS -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#BMS">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Строковые"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Li-ion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Li-ion">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Строковые"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOC -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOC">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Числовые"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOC"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOH -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOH">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Числовые"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOH"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Включить_охлаждение -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Включить_охлаждение">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Логические"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Включить_охлаждение_аккумулятора"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Выключить_охлаждение -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Выключить_охлаждение">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Логические"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Выключить_охлаждение_аккумулятора"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Емкость_батареи -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Емкость_батареи">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Числовые"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Емкость_батареи"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Логические -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Логические">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Напряжение -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Напряжение">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Числовые"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Напряжение"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Свободные -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Свободные"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Строковые -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Строковые">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Температура -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Температура">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Числовые"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Температура_внутренняя"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Ток -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Ток">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Числовые"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Ток"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Числовые -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Числовые">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#BMS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#BMS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Рассчитываемые"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOH -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOH">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Рассчитываемые"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Аккумулятор -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Аккумулятор">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Устройство"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Вентилятор -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Вентилятор">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Устройство"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Включить_охлаждение_аккумулятора -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Включить_охлаждение_аккумулятора">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Команды"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Возраст -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Возраст">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Параметры_аккумулятора"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Входной_порт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Входной_порт">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Порты"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Выключить_охлаждение_аккумулятора -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Выключить_охлаждение_аккумулятора">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Команды"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Выходной_порт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Выходной_порт">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Порты"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Емкость_батареи -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Емкость_батареи">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Параметры_аккумулятора"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Защита -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Защита">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Мониторинг_баттареи"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Измеряемые -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Измеряемые">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Сбор_данных"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Параметры_аккумулятора"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Информационный -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Информационный">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Порты"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Команды -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Команды">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#BMS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Коммуникация -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Коммуникация">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Управление_аккумулятором"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Литий-ионные -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Литий-ионные">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Химический_состав"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Максимально_возможная_емкость_батареи_на_текущий_момент_времени -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Максимально_возможная_емкость_батареи_на_текущий_момент_времени">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOH"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Мониторинг_баттареи -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Мониторинг_баттареи">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#BMS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Напряжение -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Напряжение">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Сбор_данных"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Начальная_емкость_батареи -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Начальная_емкость_батареи">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Никель-металлогидридные -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Никель-металлогидридные">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Химический_состав"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Номинальная_емкость -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Номинальная_емкость">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOH"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Номинальная_емкость_батареи -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Номинальная_емкость_батареи">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Определние_состояния_батереи -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Определние_состояния_батереи">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Состояние_батареи"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Параметры_аккумулятора -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Параметры_аккумулятора">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#BMS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Пользовательский_интерфейс -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Пользовательский_интерфейс">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Управление_аккумулятором"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Порты -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Порты">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#BMS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Пропускная_способность -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Пропускная_способность">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Параметры_аккумулятора"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Рассчитываемые -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Рассчитываемые">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Параметры_аккумулятора"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Сбор_данных -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Сбор_данных">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Мониторинг_баттареи"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Свинцово-кислотные -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Свинцово-кислотные">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Химический_состав"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Скорость_саморазряда -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Скорость_саморазряда">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Параметры_аккумулятора"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Состояние_батареи -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Состояние_батареи">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#BMS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Срок_службы -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Срок_службы">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Параметры_аккумулятора"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Текущая_емкость_батареи -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Текущая_емкость_батареи">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Температура_внутренняя -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Температура_внутренняя">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Сбор_данных"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Температура_окр.среды -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Температура_окр.среды">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Сбор_данных"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Ток -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Ток">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Сбор_данных"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Увеличить_ограничение_максимальной_скорости -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Увеличить_ограничение_максимальной_скорости">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Команды"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Уменьшить_ограничение_максимальной_скорости -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Уменьшить_ограничение_максимальной_скорости">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Команды"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Управление_аккумулятором -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Управление_аккумулятором">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#BMS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Управление_температурой -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Управление_температурой">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Управление_аккумулятором"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Управление_электричеством -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Управление_электричеством">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Управление_аккумулятором"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Устройство -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Устройство">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#BMS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Химический_состав -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Химический_состав">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Аккумулятор"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#внутреннее_сопротивление -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#внутреннее_сопротивление">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Параметры_аккумулятора"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#BMS_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#BMS_1">
+        <Имеет_часть rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Управление_аккумулятором_1"/>
+        <BMS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">djkvbp1ui2g24lknhio2</BMS>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOC_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOC_1">
+        <SOC rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70.0</SOC>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOH_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOH_1">
+        <SOH rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90.0</SOH>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Аккумулятор_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Аккумулятор_1">
+        <Имеет_измерение rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOC_1"/>
+        <Имеет_измерение rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#SOH_1"/>
+        <Имеет_измерение rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Напряжение_1"/>
+        <Имеет_измерение rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Температура_1"/>
+        <Имеет_измерение rdf:resource="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Ток_1"/>
+        <Емкость_батареи rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4500.0</Емкость_батареи>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Напряжение_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Напряжение_1">
+        <Напряжение rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.0</Напряжение>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Температура_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Температура_1">
+        <Температура rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.0</Температура>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Ток_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Ток_1">
+        <Ток rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</Ток>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Управление_аккумулятором_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stud/ontologies/2024/3/labaprestige3#Управление_аккумулятором_1"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
